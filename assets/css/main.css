@@ -2116,14 +2116,20 @@
 /* Two */
 
 	#two {
-		background: url("images/breck2.png"), url("../../images/breck2.png");
+		/*background: url("images/breck2.png"), url("../../images/breck2.png");*/
+		background-color: #ffffb3;
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
 	}
 
+	.about-me-photo {
+		margin-left: 200px;
+	}
+
 	#work {
-		background-color: #ffb3b3;
+		background-color: #ff9980;
+		color: white;
 		/*background: url("images/intro.jpg"), url("../../images/intro.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
@@ -2133,6 +2139,10 @@
 /* Contact */
 
 	#contact {
+		background: url("images/back.png"), url("../../images/back.png");
+		background-size: cover;
+		color: white;
+		font-weight: 700;
 		background-color: #d1dffa;
 		overflow: hidden;
 		padding-bottom: 0;
