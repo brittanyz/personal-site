@@ -2139,7 +2139,7 @@
 /* Contact */
 
 	#contact {
-		background: url("images/back.png"), url("../../images/back.png");
+		background: url("../../images/back.png");
 		background-size: cover;
 		color: white;
 		font-weight: 700;
